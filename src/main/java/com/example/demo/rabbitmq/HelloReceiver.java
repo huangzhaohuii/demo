@@ -20,7 +20,7 @@ public class HelloReceiver {
 //    }
 
 
-    @RabbitListener(queues = "hello")
+//    @RabbitListener(queues = "hello")
     public void process2(User user){
         System.out.println("receiver3 = "+user.toString());
     }

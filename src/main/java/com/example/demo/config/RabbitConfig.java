@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @Description: rabbitmq配置
  * @since 1.0.0
  */
-@Configuration
+//@Configuration
 public class RabbitConfig {
 
     @Bean
